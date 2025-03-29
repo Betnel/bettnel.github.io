@@ -1,15 +1,12 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Nelvin Bett Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- AOS Animation Library CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -18,7 +15,7 @@
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
-					<div id="intro">
+					<div id="intro" data-aos="fade-up">
 						<h1>Nelvin Bett Portfolio</h1>
 						<p><a href="https://github.com/Betnelvin">GitHub</a> and <a href="https://www.linkedin.com/in/nelvin-bett-0b1b4a1b6/">LinkedIn</a>. I am a data analyst with a passion for data visualization and storytelling. I have experience in using SQL, Python, and Power BI to analyze and visualize data. I am always looking for new challenges and opportunities to learn.</p>
 						<ul class="actions">
@@ -27,7 +24,7 @@
 					</div>
 
 				<!-- Header -->
-					<header id="header">
+					<header id="header" data-aos="fade-down">
 						<a href="index.html" class="logo">Nelvin the analyst</a>
 					</header>
 
@@ -46,7 +43,7 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
+							<article class="post featured" data-aos="fade-up">
 								<header class="major">
 									<h2><a href="https://github.com/Betnel/Security-Analysis">Data cleaning in SQL<br />Tableau visualization</a></h2>
 									<p>In this project, we cleaned data with SQL Server and visualized insights using Tableau.</p>
@@ -59,7 +56,7 @@
 
 						<!-- Posts -->
 							<section class="posts">
-								<article>
+								<article data-aos="fade-up">
 									<header>
 										<h2><a href="https://github.com/Betnel/Security-Analysis">Data Exploration in Python</a></h2>
 									</header>
@@ -70,7 +67,7 @@
 									</ul>
 								</article>
 
-								<article>
+								<article data-aos="fade-up">
 									<header>
 										<h2><a href="#">Power BI Projects</a></h2>
 									</header>
@@ -81,7 +78,7 @@
 									</ul>
 								</article>
 
-								<article>
+								<article data-aos="fade-up">
 									<header>
 										<h2><a href="#">Excel Dashboard</a></h2>
 									</header>
@@ -93,32 +90,10 @@
 								</article>
 							</section>
 
-						<!-- Featured Projects Section -->
-						<section id="projects" class="projects-section">
-							<h2>Featured Projects</h2>
-							<div class="project-grid">
-								<div class="project-card">
-									<h3>Sales Dashboard (Power BI)</h3>
-									<p>Interactive Power BI dashboard tracking sales performance across regions and categories.</p>
-									<a href="https://your-link.com" target="_blank">View Project</a>
-								</div>
-								<div class="project-card">
-									<h3>Customer Insights (SQL + Tableau)</h3>
-									<p>Segmented customer data using SQL and visualized key trends with Tableau dashboards.</p>
-									<a href="https://your-link.com" target="_blank">View Project</a>
-								</div>
-								<div class="project-card">
-									<h3>Excel Automation</h3>
-									<p>Built Excel reporting with Power Query and macros to streamline operations.</p>
-									<a href="https://github.com/your-link" target="_blank">View Code</a>
-								</div>
-							</div>
-						</section>
-
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<footer id="footer" data-aos="fade-up">
 						<section>
 							<form method="post" action="#">
 								<div class="fields">
@@ -178,6 +153,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- AOS Animation Script -->
+			<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+			<script>
+				AOS.init();
+			</script>
 
 	</body>
 </html>
